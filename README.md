@@ -1,5 +1,5 @@
 # prob_dart
-A library for probability distributions for the Dart language.
+A library of probability distributions for the Dart language.
 
 current release: 0.1.0
 
