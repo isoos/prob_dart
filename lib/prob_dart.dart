@@ -3,6 +3,6 @@
 /// More dartdocs go here.
 library prob_dart;
 
-export 'src/prob_dart_base.dart';
+export 'src/continuous_distributions.dart';
 
 // TODO: Export any libraries intended for clients of this package.
