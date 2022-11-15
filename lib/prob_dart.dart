@@ -5,4 +5,4 @@ library prob_dart;
 
 export 'src/continuous_distributions.dart';
 
-// TODO: Export any libraries intended for clients of this package.
+// TODO: Export any libraries intended for users of this package.
