@@ -2,6 +2,13 @@ class ContinuousDistibution {
   /*
   This is a generic distribution class for continuous distributions.
   */
+  // Are these implementation-specific callbacks?
+  // You could create a function signatures for them, e.g.
+  // typedef ContinuousPdf = double Function(double input);
+  // and then use
+  // ContinuousPdf _continuousPdf;
+  // note: it is better to restrict most fields to private and open them up later - if needed.
+  // also: it is better to follow dart naming conventions: https://dart.dev/guides/language/effective-dart/style
   Function continuous_pdf;
   Function continuous_cdf;
   Function continuous_rvs;
