@@ -1,6 +1,16 @@
 import 'dart:math' show exp, pow;
 
 double erf(double x) {
+  /* Numerical approximation of the error function.
+  Maximal error: 1.2e-7
+  
+  References
+  ----------
+  .. [1] Perrin, Charles L. "Numerical Recipes in Fortran 90: The Art of
+    Scientific Computing, Volume 2 (3 CD-ROMs and Manual) By William H. 
+    Press, Saul A. Teukolsky, William T. Vetterling, and Brian P. Flannery. 
+    Cambridge University Press: New York, 1996." (1997): 8748-8748. */
+
   double t = 1 / (1 + 0.5 * x.abs());
   double y = t *
       exp(-pow(x, 2) -
