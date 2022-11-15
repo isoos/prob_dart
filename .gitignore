@@ -9,6 +9,3 @@ build/
 # https://dart.dev/guides/libraries/private-files#pubspeclock.
 pubspec.lock
 
-# Reference folders for developers
-cpp_reference
-python_reference
