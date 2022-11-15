@@ -10,13 +10,11 @@ The goal of this project is not only to provide a standard library of probabilis
 
 With this acknowledgement, it is then our explicit statement of purpose to replicate the syntax of [scipy.stats](https://docs.scipy.org/doc/scipy/reference/stats.html) as accurately and comfortably as possible into the Dart language. This intention is to provide an easy transition from the immensely popular Python language, with which many Dart developers are likely familiar.
 
-Example of a direct implementation:
+### Example of a direct implementation:
 "prob_dart.norm" analogs "scipy.stats.norm" (as opposed to something like "prob_dart.gaussian")
 
-Example of an adapted implementation:
+### Example of an adapted implementation:
 "prob_dart.norm.variance" analogs "scipy.stats.norm.var" ("var" is already reserved as a keyword for Dart)
-
-Currently this project is to be modelled after [scipy.stats](https://docs.scipy.org/doc/scipy/reference/stats.html).
 
 ## Contribute
 This project is in its very first stages. If you'd like to contribute, please contact me. My email and personal site can be found on my profile page. Thanks!
